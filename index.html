@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KIM JIHUN — Photographer &amp; Videographer</title>
+<meta name="description" content="김지훈(@noisehooooon)의 사진·영상 작업 아카이브. 행사·전시·공연·패션 룩북·스트리트 포토와 영상.">
+<meta name="author" content="KIM JIHUN">
+<meta property="og:type" content="website">
+<meta property="og:title" content="KIM JIHUN — Photographer &amp; Videographer">
+<meta property="og:description" content="행사·전시·공연·패션 룩북·스트리트 포토와 영상. 김지훈의 사진·영상 작업 아카이브.">
+<meta property="og:image" content="assets/projects/hahoe-01.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23FAF9F6'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-size='34' fill='%23111110'%3EK%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip" href="#work">본문으로 건너뛰기</a>
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#top">
+    <span class="nav__name">KIM JIHUN</span>
+    <span class="nav__role">Photographer &amp; Videographer</span>
+  </a>
+  <nav class="nav__links" aria-label="주요 섹션">
+    <a href="#work">Work</a>
+    <a href="#notes">Notes</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="메뉴 열기">
+    <span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" hidden>
+  <nav aria-label="모바일 메뉴">
+    <a href="#work"><span>01</span>Work</a>
+    <a href="#notes"><span>02</span>Notes</a>
+    <a href="#about"><span>03</span>About</a>
+    <a href="#contact"><span>04</span>Contact</a>
+  </nav>
+  <p class="mobile-menu__meta" id="mobileMenuMeta"></p>
+</div>
+
+<main id="top">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" id="hero">
+    <p class="eyebrow hero__eyebrow" data-reveal>Photographer &amp; Videographer<span class="hero__loc"> — Seoul, Korea</span></p>
+    <h1 class="hero__title" data-reveal data-reveal-delay="80">
+      <span>KIM</span>
+      <span>JIHUN</span>
+    </h1>
+    <div class="hero__foot">
+      <p class="hero__intro" id="heroIntro" data-reveal data-reveal-delay="160"></p>
+      <a class="hero__handle" id="heroHandle" href="https://www.instagram.com/noisehooooon" target="_blank" rel="noopener" data-reveal data-reveal-delay="220">@noisehooooon</a>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <span class="hero__scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ================= OPENING IMAGE ================= -->
+  <figure class="opening" data-reveal>
+    <img id="openingImg" alt="" width="2000" height="1333" decoding="async">
+    <figcaption class="opening__caption">
+      <span id="openingCaption"></span>
+      <span id="openingYear"></span>
+    </figcaption>
+  </figure>
+
+  <!-- ================= WORK ================= -->
+  <section class="section section--work" id="work">
+    <header class="section__head" data-reveal>
+      <h2 class="section__title">Selected Work</h2>
+      <p class="section__meta"><span id="workCount"></span> · 2026</p>
+    </header>
+
+    <div class="filters" id="filters" role="tablist" aria-label="작업 분류" data-reveal></div>
+
+    <div class="work-grid" id="workGrid"></div>
+  </section>
+
+  <!-- ================= NOTES ================= -->
+  <section class="section section--notes" id="notes">
+    <header class="section__head" data-reveal>
+      <h2 class="section__title">Notes</h2>
+      <p class="section__meta">촬영 노트 &amp; 비하인드</p>
+    </header>
+    <ul class="notes" id="notesList"></ul>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section class="section section--about" id="about">
+    <div class="about">
+      <header class="about__head" data-reveal>
+        <p class="eyebrow">About</p>
+        <h2 class="about__title">기록하는<br>방식에 대하여</h2>
+      </header>
+      <div class="about__body" id="aboutBody" data-reveal data-reveal-delay="60"></div>
+    </div>
+
+    <dl class="services" id="services" data-reveal></dl>
+  </section>
+
+  <!-- ================= CONTACT ================= -->
+  <section class="section section--contact" id="contact">
+    <div class="contact" data-reveal>
+      <p class="eyebrow">Contact</p>
+      <h2 class="contact__title">촬영 문의</h2>
+      <a class="contact__mail" id="contactMail" href="mailto:hoooonz91@gmail.com">hoooonz91@gmail.com</a>
+      <div class="contact__links" id="contactLinks"></div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <span>© 2026 KIM JIHUN</span>
+  <span>Seoul, Korea</span>
+  <a href="#top">Back to top ↑</a>
+</footer>
+
+<!-- ================= OVERLAYS ================= -->
+<div class="overlay" id="lightbox" hidden aria-modal="true" role="dialog" aria-label="이미지 크게 보기">
+  <div class="lightbox__bar">
+    <span class="lightbox__count" id="lbCount"></span>
+    <button class="btn-close" data-close-lightbox aria-label="닫기">Close ✕</button>
+  </div>
+  <div class="lightbox__stage" id="lbStage">
+    <button class="lb-nav lb-nav--prev" data-lb-prev aria-label="이전 이미지">←</button>
+    <img class="lightbox__img" id="lbImg" alt="">
+    <button class="lb-nav lb-nav--next" data-lb-next aria-label="다음 이미지">→</button>
+  </div>
+  <p class="lightbox__caption" id="lbCaption"></p>
+</div>
+
+<div class="overlay overlay--sheet" id="detail" hidden aria-modal="true" role="dialog" aria-label="프로젝트 상세">
+  <div class="sheet">
+    <div class="sheet__bar">
+      <span class="sheet__label" id="detailLabel"></span>
+      <button class="btn-close" data-close-detail aria-label="닫기">Close ✕</button>
+    </div>
+    <div class="sheet__body" id="detailBody"></div>
+  </div>
+</div>
+
+<div class="overlay overlay--sheet" id="noteView" hidden aria-modal="true" role="dialog" aria-label="노트 본문">
+  <div class="sheet sheet--note">
+    <div class="sheet__bar">
+      <span class="sheet__label">Note</span>
+      <button class="btn-close" data-close-note aria-label="닫기">Close ✕</button>
+    </div>
+    <div class="sheet__body" id="noteBody"></div>
+  </div>
+</div>
+
+<noscript>
+  <p style="padding:2rem;font-family:system-ui,sans-serif">이 사이트는 JavaScript로 작업물을 불러옵니다. 브라우저 설정에서 JavaScript를 켜 주세요.</p>
+</noscript>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
