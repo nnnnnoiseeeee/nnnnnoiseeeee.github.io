@@ -1,6 +1,10 @@
 # KIM JIHUN — Portfolio
 
+**Live: https://nnnnnoiseeeee.github.io/**
+
 김지훈(@noisehooooon)의 사진·영상 작업 아카이브. 정적 사이트(HTML/CSS/JS)라 빌드 과정 없이 GitHub Pages 등 어떤 정적 호스팅에도 그대로 올릴 수 있습니다.
+
+이 저장소(`nnnnnoiseeeee.github.io`)는 `main` 브랜치 루트에서 GitHub Pages로 배포됩니다. 수정 후 `git push` 하면 1~2분 안에 사이트에 반영됩니다.
 
 ## 구조
 
